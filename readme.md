@@ -1,6 +1,8 @@
-# Documentation Website for Pyrix Project:
+# Documentation Website for Pyrix:
 
-### Project Link
+
+### Links
+
 
 * [Source Repo](https://github.com/Abhi-1U/pyrix)  
 * [PYPI Page](https://pypi.org/project/pyrix/)  
@@ -8,8 +10,9 @@
 
 ### Warning !
 The Documentation here is incomplete and mostly work in progress as of now, with subsequent updates the documentation will be fully ready :)!   
-So Stick around till the end for the complete website and don't get mad at me for not deploying a completed website :| .
+So Stick around till the end for the complete website and don't get mad at me for not deploying a completed website :| 
 
 ### License
 This Documentation is explicitly licensed under 
 [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)  
+
