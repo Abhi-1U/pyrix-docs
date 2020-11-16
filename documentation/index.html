@@ -56,7 +56,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#introduction" class="md-skip">
+        <a href="#pyrixmatrix-package-reference" class="md-skip">
           Skip to content
         </a>
       
@@ -890,9 +890,21 @@
                   
                 
                 
-                <h1 id="introduction">Introduction</h1>
+                <h1 id="pyrixmatrix-package-reference"><code>pyrix.matrix</code> package Reference</h1>
 <hr />
 <h2 id="categorization-of-methods">Categorization Of Methods</h2>
+<div class="highlight"><pre><span></span><code>    pyrix                               &lt;-[package]
+    |
+    ----matrix                          &lt;-[sub-package]
+        |
+        ----zeroMatrix()                &lt;-[function]
+        ----unitMatrix()                &lt;-[function]
+        ----identityMatrix()            &lt;-[function]
+        ----randomMatrix()              &lt;-[function]
+        ----matrixData                  &lt;-[class]
+        ----Matrix                      &lt;-[class]
+</code></pre></div>
+
 <h2 id="category-0-matrix-datatype">Category 0: Matrix DataType</h2>
 <p>The Core Mechanism which is used to store the Matrix Object Data. Having Applied Elements of Dynamic Programming , It is quite effective in making decisions when it comes to calculating certain values in a cost effective way and on the other hand maintains a Character Profile of the Matrix .
 All The Matrix Data is stored here which allows for implementing Dynamic Programming Principles such as Memoization:</p>
@@ -1010,107 +1022,107 @@ All The Matrix Data is stored here which allows for implementing Dynamic Program
 <tbody>
 <tr>
 <td>1.</td>
-<td>__init__</td>
+<td><a href="../cat1/##1-__init__-constructor-method">pyrix.Matrix.__init__()</a></td>
 <td>Initializer constructor method</td>
 </tr>
 <tr>
 <td>2.</td>
-<td>__repr__</td>
+<td><a href="">pyrix.Matrix.__repr__()</a></td>
 <td>Describes/represents the object and returns sensible/expected values.</td>
 </tr>
 <tr>
 <td>3.</td>
-<td>__str__</td>
+<td><a href="">pyrix.Matrix.__str__()</a></td>
 <td>String value of the Object.</td>
 </tr>
 <tr>
 <td>4.</td>
-<td>__add__</td>
+<td><a href="">pyrix.Matrix.__add__()</a></td>
 <td>Addition of two matrices [<em>operator override</em>].</td>
 </tr>
 <tr>
 <td>5.</td>
-<td>__sub__</td>
+<td><a href="">pyrix.Matrix.__sub__()</a></td>
 <td>Subtraction of two matrices [<em>operator override</em>].</td>
 </tr>
 <tr>
 <td>6.</td>
-<td>__mul__</td>
+<td><a href="">pyrix.Matrix.__mul__()</a></td>
 <td>Multiplication of two matrices [<em>operator override</em>].</td>
 </tr>
 <tr>
 <td>7.</td>
-<td>__truediv__</td>
+<td><a href="">pyrix.Matrix.__truediv__()</a></td>
 <td>Dummy Method to prevent operator failure [<em>operator override</em>].</td>
 </tr>
 <tr>
 <td>8.</td>
-<td>__floordiv__</td>
+<td><a href="">pyrix.Matrix.__floordiv__()</a></td>
 <td>Dummy Method to prevent operator failure [<em>operator override</em>].</td>
 </tr>
 <tr>
 <td>9.</td>
-<td>__pow__</td>
+<td><a href="">pyrix.Matrix.__pow__()</a></td>
 <td>Raises a matrix to the specified power.</td>
 </tr>
 <tr>
 <td>10.</td>
-<td>__abs__</td>
+<td><a href="">pyrix.Matrix.__abs__()</a></td>
 <td>Returns the absolute or determinant value of the matrix.</td>
 </tr>
 <tr>
 <td>11.</td>
-<td>__mod__</td>
+<td><a href="">pyrix.Matrix.__mod__()</a></td>
 <td>Dummy Method to prevent operator misuse raises divisionErrorException exception [<em>operator override</em>].</td>
 </tr>
 <tr>
 <td>12.</td>
-<td>__lshift__</td>
+<td><a href="">pyrix.Matrix.__lshift__()</a></td>
 <td>Dummy Method to prevent operator misuse raises bitWiseOnMatrix exception [<em>operator override</em>].</td>
 </tr>
 <tr>
 <td>13.</td>
-<td>__rshift__</td>
+<td><a href="">pyrix.Matrix.__rshift__()</a></td>
 <td>Dummy Method to prevent operator misuse raises bitWiseOnMatrix exception [<em>operator override</em>].</td>
 </tr>
 <tr>
 <td>14.</td>
-<td>__and__</td>
+<td><a href="">pyrix.Matrix.__and__()</a></td>
 <td>Dummy Method to prevent operator misuse raises bitWiseOnMatrix exception [<em>operator override</em>].</td>
 </tr>
 <tr>
 <td>15.</td>
-<td>__or__</td>
+<td><a href="">pyrix.Matrix.__or__()</a></td>
 <td>Dummy Method to prevent operator misuse raises bitWiseOnMatrix exception [<em>operator override</em>].</td>
 </tr>
 <tr>
 <td>16.</td>
-<td>__xor__</td>
+<td><a href="">pyrix.Matrix.__xor__()</a></td>
 <td>Dummy Method to prevent operator misuse raises bitWiseOnMatrix exception [<em>operator override</em>].</td>
 </tr>
 <tr>
 <td>17.</td>
-<td>__invert__</td>
+<td><a href="">pyrix.Matrix.__invert__()</a></td>
 <td>Dummy Method to prevent operator misuse raises bitWiseOnMatrix exception [<em>operator override</em>].</td>
 </tr>
 <tr>
 <td>18.</td>
-<td>__eq__</td>
+<td><a href="">pyrix.Matrix.__eq__()</a></td>
 <td>returns boolean values based on matrix equality.</td>
 </tr>
 <tr>
 <td>19.</td>
-<td>__floor__</td>
+<td><a href="">pyrix.Matrix.__floor__()</a></td>
 <td></td>
 </tr>
 <tr>
 <td>20.</td>
-<td>__ceil__</td>
+<td><a href="">pyrix.Matrix.__ceil__()</a></td>
 <td></td>
 </tr>
 <tr>
 <td>21.</td>
-<td>__trunc__</td>
+<td><a href="">pyrix.Matrix.__trunc__()</a></td>
 <td></td>
 </tr>
 </tbody>
