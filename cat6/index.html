@@ -55,6 +55,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#statistical-methods" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -402,10 +407,97 @@
     
     <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
     
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Statistical Methods
+        <span class="md-nav__icon md-icon"></span>
+      </label>
     
     <a href="./" title="Statistical Methods" class="md-nav__link md-nav__link--active">
       Statistical Methods
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#pyrixmatrixmatrixglobalmean" class="md-nav__link">
+    pyrix.matrix.Matrix.globalMean()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pyrixmatrixmatrixglobalmedian" class="md-nav__link">
+    pyrix.matrix.Matrix.globalMedian()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pyrixmatrixmatrixglobalmode" class="md-nav__link">
+    pyrix.matrix.Matrix.globalMode()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pyrixmatrixmatrixlocalrowmean" class="md-nav__link">
+    pyrix.matrix.Matrix.localRowMean()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pyrixmatrixmatrixlocalrowmedian" class="md-nav__link">
+    pyrix.matrix.Matrix.localRowMedian()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pyrixmatrixmatrixlocalrowmode" class="md-nav__link">
+    pyrix.matrix.Matrix.localRowMode()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pyrixmatrixmatrixlocalcolumnmean" class="md-nav__link">
+    pyrix.matrix.Matrix.localColumnMean()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pyrixmatrixmatrixlocalcolumnmedian" class="md-nav__link">
+    pyrix.matrix.Matrix.localColumnMedian()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pyrixmatrixmatrixlocalcolumnmode" class="md-nav__link">
+    pyrix.matrix.Matrix.localColumnMode()
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -689,6 +781,92 @@
               </div>
             
             
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#pyrixmatrixmatrixglobalmean" class="md-nav__link">
+    pyrix.matrix.Matrix.globalMean()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pyrixmatrixmatrixglobalmedian" class="md-nav__link">
+    pyrix.matrix.Matrix.globalMedian()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pyrixmatrixmatrixglobalmode" class="md-nav__link">
+    pyrix.matrix.Matrix.globalMode()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pyrixmatrixmatrixlocalrowmean" class="md-nav__link">
+    pyrix.matrix.Matrix.localRowMean()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pyrixmatrixmatrixlocalrowmedian" class="md-nav__link">
+    pyrix.matrix.Matrix.localRowMedian()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pyrixmatrixmatrixlocalrowmode" class="md-nav__link">
+    pyrix.matrix.Matrix.localRowMode()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pyrixmatrixmatrixlocalcolumnmean" class="md-nav__link">
+    pyrix.matrix.Matrix.localColumnMean()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pyrixmatrixmatrixlocalcolumnmedian" class="md-nav__link">
+    pyrix.matrix.Matrix.localColumnMedian()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pyrixmatrixmatrixlocalcolumnmode" class="md-nav__link">
+    pyrix.matrix.Matrix.localColumnMode()
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
@@ -698,9 +876,142 @@
                   
                 
                 
-                  <h1>Statistical Methods</h1>
-                
-                
+                <h1 id="statistical-methods">Statistical Methods</h1>
+<h2 id="pyrixmatrixmatrixglobalmean"><code>pyrix.matrix.Matrix.globalMean()</code></h2>
+<div class="admonition note">
+<div class="admonition abstract">
+<p class="admonition-title">Abstract Code Description</p>
+<div class="highlight"><pre><span></span><code><span class="k">class</span> <span class="nc">Matrix</span><span class="p">:</span>
+    <span class="p">::</span>
+    <span class="k">def</span> <span class="nf">globalMean</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="o">....</span>
+</code></pre></div>
+
+</div>
+<div class="admonition info">
+<p class="admonition-title">details</p>
+</div>
+</div>
+<h2 id="pyrixmatrixmatrixglobalmedian"><code>pyrix.matrix.Matrix.globalMedian()</code></h2>
+<div class="admonition note">
+<div class="admonition abstract">
+<p class="admonition-title">Abstract Code Description</p>
+<div class="highlight"><pre><span></span><code><span class="k">class</span> <span class="nc">Matrix</span><span class="p">:</span>
+    <span class="p">::</span>
+    <span class="k">def</span> <span class="nf">globalMedian</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="o">....</span>
+</code></pre></div>
+
+</div>
+<div class="admonition info">
+<p class="admonition-title">details</p>
+</div>
+</div>
+<h2 id="pyrixmatrixmatrixglobalmode"><code>pyrix.matrix.Matrix.globalMode()</code></h2>
+<div class="admonition note">
+<div class="admonition abstract">
+<p class="admonition-title">Abstract Code Description</p>
+<div class="highlight"><pre><span></span><code><span class="k">class</span> <span class="nc">Matrix</span><span class="p">:</span>
+    <span class="p">::</span>
+    <span class="k">def</span> <span class="nf">globalMode</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="o">....</span>
+</code></pre></div>
+
+</div>
+<div class="admonition info">
+<p class="admonition-title">details</p>
+</div>
+</div>
+<h2 id="pyrixmatrixmatrixlocalrowmean"><code>pyrix.matrix.Matrix.localRowMean()</code></h2>
+<div class="admonition note">
+<div class="admonition abstract">
+<p class="admonition-title">Abstract Code Description</p>
+<div class="highlight"><pre><span></span><code><span class="k">class</span> <span class="nc">Matrix</span><span class="p">:</span>
+    <span class="p">::</span>
+    <span class="k">def</span> <span class="nf">localRowMean</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">rowindex</span><span class="p">):</span>
+        <span class="o">....</span>
+</code></pre></div>
+
+</div>
+<div class="admonition info">
+<p class="admonition-title">details</p>
+</div>
+</div>
+<h2 id="pyrixmatrixmatrixlocalrowmedian"><code>pyrix.matrix.Matrix.localRowMedian()</code></h2>
+<div class="admonition note">
+<div class="admonition abstract">
+<p class="admonition-title">Abstract Code Description</p>
+<div class="highlight"><pre><span></span><code><span class="k">class</span> <span class="nc">Matrix</span><span class="p">:</span>
+    <span class="p">::</span>
+    <span class="k">def</span> <span class="nf">localRowMedian</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">rowindex</span><span class="p">):</span>
+        <span class="o">....</span>
+</code></pre></div>
+
+</div>
+<div class="admonition info">
+<p class="admonition-title">details</p>
+</div>
+</div>
+<h2 id="pyrixmatrixmatrixlocalrowmode"><code>pyrix.matrix.Matrix.localRowMode()</code></h2>
+<div class="admonition note">
+<div class="admonition abstract">
+<p class="admonition-title">Abstract Code Description</p>
+<div class="highlight"><pre><span></span><code><span class="k">class</span> <span class="nc">Matrix</span><span class="p">:</span>
+    <span class="p">::</span>
+    <span class="k">def</span> <span class="nf">localRowMode</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">rowindex</span><span class="p">):</span>
+        <span class="o">....</span>
+</code></pre></div>
+
+</div>
+<div class="admonition info">
+<p class="admonition-title">details</p>
+</div>
+</div>
+<h2 id="pyrixmatrixmatrixlocalcolumnmean"><code>pyrix.matrix.Matrix.localColumnMean()</code></h2>
+<div class="admonition note">
+<div class="admonition abstract">
+<p class="admonition-title">Abstract Code Description</p>
+<div class="highlight"><pre><span></span><code><span class="k">class</span> <span class="nc">Matrix</span><span class="p">:</span>
+    <span class="p">::</span>
+    <span class="k">def</span> <span class="nf">localColumnMean</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">colindex</span><span class="p">):</span>
+        <span class="o">....</span>
+</code></pre></div>
+
+</div>
+<div class="admonition info">
+<p class="admonition-title">details</p>
+</div>
+</div>
+<h2 id="pyrixmatrixmatrixlocalcolumnmedian"><code>pyrix.matrix.Matrix.localColumnMedian()</code></h2>
+<div class="admonition note">
+<div class="admonition abstract">
+<p class="admonition-title">Abstract Code Description</p>
+<div class="highlight"><pre><span></span><code><span class="k">class</span> <span class="nc">Matrix</span><span class="p">:</span>
+    <span class="p">::</span>
+    <span class="k">def</span> <span class="nf">localColumnMedian</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">colindex</span><span class="p">):</span>
+        <span class="o">....</span>
+</code></pre></div>
+
+</div>
+<div class="admonition info">
+<p class="admonition-title">details</p>
+</div>
+</div>
+<h2 id="pyrixmatrixmatrixlocalcolumnmode"><code>pyrix.matrix.Matrix.localColumnMode()</code></h2>
+<div class="admonition note">
+<div class="admonition abstract">
+<p class="admonition-title">Abstract Code Description</p>
+<div class="highlight"><pre><span></span><code><span class="k">class</span> <span class="nc">Matrix</span><span class="p">:</span>
+    <span class="p">::</span>
+    <span class="k">def</span> <span class="nf">localColumnMode</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">colindex</span><span class="p">):</span>
+        <span class="o">....</span>
+</code></pre></div>
+
+</div>
+<div class="admonition info">
+<p class="admonition-title">details</p>
+</div>
+</div>
                 
               
               
