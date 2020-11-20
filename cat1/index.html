@@ -1,37 +1,43 @@
 
-
-
 <!doctype html>
 <html lang="en" class="no-js">
   <head>
     
+
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
+      
       
       
       
         <meta name="author" content="Abhishek Ulayil">
       
       <link rel="shortcut icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.1, mkdocs-material-5.5.11">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.1.5">
     
+
     
       
         <title>Base Class Methods - Pyrix - Python Implementation</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.860688db.min.css">
-      
-        <link rel="stylesheet" href="../assets/stylesheets/palette.943997b5.min.css">
-      
+      <link rel="stylesheet" href="../assets/stylesheets/main.21aed14c.min.css">
       
         
+        <link rel="stylesheet" href="../assets/stylesheets/palette.196e0c26.min.css">
         
-        <meta name="theme-color" content="#2094f3">
+          
+          
+          <meta name="theme-color" content="#2094f3">
+        
       
     
     
+
+<link rel="stylesheet" type="text/css" href="../css/themtoggle.css"/> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     
       
     
@@ -47,9 +53,11 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="orange">
-  
     
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="orange">
+      
+  
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
@@ -65,7 +73,9 @@
       
     </div>
     
-      <header class="md-header" data-md-component="header">
+      
+
+<header class="md-header" data-md-component="header">
   <nav class="md-header-nav md-grid" aria-label="Header">
     <a href=".." title="Pyrix - Python Implementation" class="md-header-nav__button md-logo" aria-label="Pyrix - Python Implementation">
       
@@ -99,7 +109,7 @@
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
       <label class="md-search__icon md-icon" for="__search">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
@@ -140,61 +150,7 @@
     
     <div class="md-container" data-md-component="container">
       
-        
       
-      
-        
-          
-
-  
-
-<nav class="md-tabs md-tabs--active" aria-label="Tabs" data-md-component="tabs">
-  <div class="md-tabs__inner md-grid">
-    <ul class="md-tabs__list">
-      
-        
-  <li class="md-tabs__item">
-    
-      <a href=".." class="md-tabs__link">
-        Home
-      </a>
-    
-  </li>
-
-      
-        
-      
-        
-  
-  
-    <li class="md-tabs__item">
-      
-        <a href="../gen/" class="md-tabs__link md-tabs__link--active">
-          Documentation
-        </a>
-      
-    </li>
-  
-
-      
-        
-  
-  
-    <li class="md-tabs__item">
-      
-        <a href="../geninfo/" class="md-tabs__link">
-          User Guide
-        </a>
-      
-    </li>
-  
-
-      
-        
-      
-    </ul>
-  </div>
-</nav>
         
       
       <main class="md-main" data-md-component="main">
@@ -204,7 +160,9 @@
               <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
-                    <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+                    
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href=".." title="Pyrix - Python Implementation" class="md-nav__button md-logo" aria-label="Pyrix - Python Implementation">
       
@@ -236,7 +194,7 @@
 
 
   <li class="md-nav__item">
-    <a href=".." title="Home" class="md-nav__link">
+    <a href=".." class="md-nav__link">
       Home
     </a>
   </li>
@@ -248,7 +206,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../Release/" title="Releases" class="md-nav__link">
+    <a href="../Release/" class="md-nav__link">
       Releases
     </a>
   </li>
@@ -263,8 +221,7 @@
 
   <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
-    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
     <label class="md-nav__link" for="nav-3">
       Documentation
       <span class="md-nav__icon md-icon"></span>
@@ -283,7 +240,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../gen/" title="General Introduction" class="md-nav__link">
+    <a href="../gen/" class="md-nav__link">
       General Introduction
     </a>
   </li>
@@ -298,8 +255,7 @@
 
   <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-2" type="checkbox" id="nav-3-2" checked>
-    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-2" type="checkbox" id="nav-3-2" checked>
     <label class="md-nav__link" for="nav-3-2">
       Matrix Sub-Module
       <span class="md-nav__icon md-icon"></span>
@@ -318,7 +274,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../documentation/" title="Introduction" class="md-nav__link">
+    <a href="../documentation/" class="md-nav__link">
       Introduction
     </a>
   </li>
@@ -330,7 +286,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../cat0/" title="Matrix Datatype" class="md-nav__link">
+    <a href="../cat0/" class="md-nav__link">
       Matrix Datatype
     </a>
   </li>
@@ -355,7 +311,7 @@
         <span class="md-nav__icon md-icon"></span>
       </label>
     
-    <a href="./" title="Base Class Methods" class="md-nav__link md-nav__link--active">
+    <a href="./" class="md-nav__link md-nav__link--active">
       Base Class Methods
     </a>
     
@@ -889,7 +845,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../cat2/" title="Matrix Analysis Methods" class="md-nav__link">
+    <a href="../cat2/" class="md-nav__link">
       Matrix Analysis Methods
     </a>
   </li>
@@ -901,7 +857,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../cat3/" title="Intra-Matrix Methods" class="md-nav__link">
+    <a href="../cat3/" class="md-nav__link">
       Intra-Matrix Methods
     </a>
   </li>
@@ -913,7 +869,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../cat4/" title="Inter-Matrix Methods" class="md-nav__link">
+    <a href="../cat4/" class="md-nav__link">
       Inter-Matrix Methods
     </a>
   </li>
@@ -925,7 +881,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../cat5/" title="Matrix Transformations" class="md-nav__link">
+    <a href="../cat5/" class="md-nav__link">
       Matrix Transformations
     </a>
   </li>
@@ -937,7 +893,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../cat6/" title="Statistical Methods" class="md-nav__link">
+    <a href="../cat6/" class="md-nav__link">
       Statistical Methods
     </a>
   </li>
@@ -949,7 +905,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../cat7/" title="Supplementary Methods" class="md-nav__link">
+    <a href="../cat7/" class="md-nav__link">
       Supplementary Methods
     </a>
   </li>
@@ -967,8 +923,7 @@
 
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-3" type="checkbox" id="nav-3-3">
-    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-3" type="checkbox" id="nav-3-3" >
     <label class="md-nav__link" for="nav-3-3">
       Binary Matrix Sub-Module
       <span class="md-nav__icon md-icon"></span>
@@ -987,7 +942,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../binint/" title="introduction" class="md-nav__link">
+    <a href="../binint/" class="md-nav__link">
       introduction
     </a>
   </li>
@@ -999,7 +954,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../catb1/" title="Base Class Methods" class="md-nav__link">
+    <a href="../catb1/" class="md-nav__link">
       Base Class Methods
     </a>
   </li>
@@ -1011,7 +966,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../cat8/" title="Binary/Boolean Logic Methods" class="md-nav__link">
+    <a href="../cat8/" class="md-nav__link">
       Binary/Boolean Logic Methods
     </a>
   </li>
@@ -1023,7 +978,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../cat9/" title="Logical Shift Methods" class="md-nav__link">
+    <a href="../cat9/" class="md-nav__link">
       Logical Shift Methods
     </a>
   </li>
@@ -1041,8 +996,7 @@
 
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-4" type="checkbox" id="nav-3-4">
-    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-4" type="checkbox" id="nav-3-4" >
     <label class="md-nav__link" for="nav-3-4">
       Charactar Matrix Sub-Module
       <span class="md-nav__icon md-icon"></span>
@@ -1061,7 +1015,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../geninfo/" title="introduction" class="md-nav__link">
+    <a href="../geninfo/" class="md-nav__link">
       introduction
     </a>
   </li>
@@ -1079,8 +1033,7 @@
 
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-5" type="checkbox" id="nav-3-5">
-    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-5" type="checkbox" id="nav-3-5" >
     <label class="md-nav__link" for="nav-3-5">
       Vector Sub-Module
       <span class="md-nav__icon md-icon"></span>
@@ -1099,7 +1052,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../vint/" title="introduction" class="md-nav__link">
+    <a href="../vint/" class="md-nav__link">
       introduction
     </a>
   </li>
@@ -1111,7 +1064,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../catv0/" title="category 0" class="md-nav__link">
+    <a href="../catv0/" class="md-nav__link">
       category 0
     </a>
   </li>
@@ -1129,8 +1082,7 @@
 
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-6" type="checkbox" id="nav-3-6">
-    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-6" type="checkbox" id="nav-3-6" >
     <label class="md-nav__link" for="nav-3-6">
       Exceptions Guide
       <span class="md-nav__icon md-icon"></span>
@@ -1149,7 +1101,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../exceptint/" title="introduction" class="md-nav__link">
+    <a href="../exceptint/" class="md-nav__link">
       introduction
     </a>
   </li>
@@ -1172,8 +1124,7 @@
 
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
-    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" >
     <label class="md-nav__link" for="nav-4">
       User Guide
       <span class="md-nav__icon md-icon"></span>
@@ -1192,7 +1143,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../geninfo/" title="General Info" class="md-nav__link">
+    <a href="../geninfo/" class="md-nav__link">
       General Info
     </a>
   </li>
@@ -1209,7 +1160,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../progress/" title="Status" class="md-nav__link">
+    <a href="../progress/" class="md-nav__link">
       Status
     </a>
   </li>
@@ -1755,9 +1706,6 @@
               
                 
                 
-                  
-                
-                
                 <h1 id="base-class-methods">Base Class Methods</h1>
 <h2 id="pyrixmatrixmatrix__init__-constructor"><code>pyrix.matrix.Matrix.__init__()</code> (Constructor)</h2>
 <div class="admonition note">
@@ -1768,7 +1716,6 @@
     <span class="k">def</span>     <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">nrow</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span><span class="n">ncol</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span><span class="n">data</span><span class="o">=</span><span class="p">[</span><span class="mi">1</span><span class="p">]):</span>
         <span class="o">....</span>
 </code></pre></div>
-
 </div>
 <div class="admonition info">
 <p class="admonition-title">details</p>
@@ -1797,7 +1744,6 @@
     <span class="k">def</span> <span class="fm">__repr__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="o">....</span>
 </code></pre></div>
-
 </div>
 <div class="admonition info">
 <p class="admonition-title">details</p>
@@ -1816,7 +1762,6 @@
     <span class="k">def</span> <span class="fm">__str__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="o">....</span>
 </code></pre></div>
-
 </div>
 <div class="admonition info">
 <p class="admonition-title">details</p>
@@ -1836,7 +1781,6 @@
     <span class="k">def</span> <span class="fm">__add__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">matrix2</span><span class="p">):</span>
         <span class="o">....</span>
 </code></pre></div>
-
 </div>
 <div class="admonition info">
 <p class="admonition-title">details</p>
@@ -1863,7 +1807,6 @@
     <span class="k">def</span> <span class="fm">__sub__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">matrix2</span><span class="p">):</span>
         <span class="o">....</span>
 </code></pre></div>
-
 </div>
 <div class="admonition info">
 <p class="admonition-title">details</p>
@@ -1890,7 +1833,6 @@
     <span class="k">def</span> <span class="fm">__mul__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">matrix2</span><span class="p">):</span>
         <span class="o">....</span>
 </code></pre></div>
-
 </div>
 <div class="admonition info">
 <p class="admonition-title">details</p>
@@ -1917,7 +1859,6 @@
     <span class="k">def</span> <span class="fm">__truediv__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">matrix2</span><span class="p">):</span>
         <span class="o">....</span>
 </code></pre></div>
-
 </div>
 <div class="admonition info">
 <p class="admonition-title">details</p>
@@ -1940,7 +1881,6 @@
     <span class="k">def</span> <span class="fm">__floordiv__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">matrix2</span><span class="p">):</span>
         <span class="o">....</span>
 </code></pre></div>
-
 </div>
 <div class="admonition info">
 <p class="admonition-title">details</p>
@@ -1963,7 +1903,6 @@
     <span class="k">def</span> <span class="fm">__pow__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">times</span><span class="p">):</span>
         <span class="o">....</span>
 </code></pre></div>
-
 </div>
 <div class="admonition info">
 <p class="admonition-title">details</p>
@@ -1994,7 +1933,6 @@
     <span class="k">def</span> <span class="fm">__abs__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="o">....</span>
 </code></pre></div>
-
 </div>
 <div class="admonition info">
 <p class="admonition-title">details</p>
@@ -2025,7 +1963,6 @@
     <span class="k">def</span> <span class="fm">__mod__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">matrix2</span><span class="p">):</span>
         <span class="o">....</span>
 </code></pre></div>
-
 </div>
 <div class="admonition info">
 <p class="admonition-title">details</p>
@@ -2048,7 +1985,6 @@
     <span class="k">def</span> <span class="fm">__lshift__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">number</span><span class="p">):</span>
         <span class="o">....</span>
 </code></pre></div>
-
 </div>
 <h4 id="output_11">output:</h4>
 <ul>
@@ -2064,7 +2000,6 @@
     <span class="k">def</span> <span class="fm">__rshift__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">number</span><span class="p">):</span>
         <span class="o">....</span>
 </code></pre></div>
-
 </div>
 <div class="admonition info">
 <p class="admonition-title">details</p>
@@ -2083,7 +2018,6 @@
     <span class="k">def</span> <span class="fm">__and__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">Matrix2</span><span class="p">):</span>
         <span class="o">....</span>
 </code></pre></div>
-
 </div>
 <div class="admonition info">
 <p class="admonition-title">details</p>
@@ -2106,7 +2040,6 @@
     <span class="k">def</span> <span class="fm">__or__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">Matrix2</span><span class="p">):</span>
         <span class="o">....</span>
 </code></pre></div>
-
 </div>
 <div class="admonition info">
 <p class="admonition-title">details</p>
@@ -2129,7 +2062,6 @@
     <span class="k">def</span> <span class="fm">__xor__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">Matrix2</span><span class="p">):</span>
         <span class="o">....</span>
 </code></pre></div>
-
 </div>
 <div class="admonition info">
 <p class="admonition-title">details</p>
@@ -2152,7 +2084,6 @@
     <span class="k">def</span> <span class="fm">__invert__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="o">....</span>
 </code></pre></div>
-
 </div>
 <div class="admonition info">
 <p class="admonition-title">details</p>
@@ -2171,7 +2102,6 @@
     <span class="k">def</span> <span class="fm">__eq__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">Matrix2</span><span class="p">):</span>
         <span class="o">....</span>
 </code></pre></div>
-
 </div>
 <div class="admonition info">
 <p class="admonition-title">details</p>
@@ -2198,7 +2128,6 @@
     <span class="k">def</span> <span class="nf">__trunc__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="o">....</span>
 </code></pre></div>
-
 </div>
 <div class="admonition info">
 <p class="admonition-title">details</p>
@@ -2221,7 +2150,6 @@
     <span class="k">def</span> <span class="nf">__floor__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="o">....</span>
 </code></pre></div>
-
 </div>
 <div class="admonition info">
 <p class="admonition-title">details</p>
@@ -2244,7 +2172,6 @@
     <span class="k">def</span> <span class="nf">__ceil__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="o">....</span>
 </code></pre></div>
-
 </div>
 <div class="admonition info">
 <p class="admonition-title">details</p>
@@ -2266,13 +2193,24 @@
         </div>
       </main>
       
-        
+<!--
+<div class="theme-switch-wrapper">
+    <label class="theme-switch" for="checkbox">
+        <input type="checkbox" id="checkbox" />
+        <div class="slider round"></div>
+    </label>
+</div>
+ <script src="../js/theme.js"></script>
+<script>
+    loadthemepreference();
+</script> -->
+
 <footer class="md-footer">
   
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
         
-          <a href="../cat0/" title="Matrix Datatype" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../cat0/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-footer-nav__button md-icon">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
             </div>
@@ -2287,7 +2225,7 @@
           </a>
         
         
-          <a href="../cat2/" title="Matrix Analysis Methods" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../cat2/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-footer-nav__title">
               <div class="md-ellipsis">
                 <span class="md-footer-nav__direction">
@@ -2337,18 +2275,18 @@
     </div>
   </div>
 </footer>
-      
+
     </div>
     
-      <script src="../assets/javascripts/vendor.df0def68.min.js"></script>
-      <script src="../assets/javascripts/bundle.ba57d267.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+      <script src="../assets/javascripts/vendor.7e0ee788.min.js"></script>
+      <script src="../assets/javascripts/bundle.b3a72adc.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
       
       <script>
         app = initialize({
           base: "..",
-          features: ["instant", "tabs"],
+          features: ['instant', 'tabs'],
           search: Object.assign({
-            worker: "../assets/javascripts/worker/search.5eca75d3.min.js"
+            worker: "../assets/javascripts/worker/search.4ac00218.min.js"
           }, typeof search !== "undefined" && search)
         })
       </script>
