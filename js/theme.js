@@ -1,5 +1,5 @@
 function togglelight() {
-    document.body.setAttribute('data-md-color-scheme','defualt');
+    document.body.setAttribute('data-md-color-scheme','default');
     localStorage.setItem('themepref','default');
 }
 function toggledark() {
@@ -16,18 +16,18 @@ function switchTheme(e) {
     }
 }
 function loadthemepreference() {
+    var toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
     var preference = localStorage.getItem('themepref');
     if (preference == null) {
         localStorage.setItem('themepref', 'default');
-        document.body.setAttribute('data-md-color-scheme', "defualt");
+        document.body.setAttribute('data-md-color-scheme', "default");
     }
     else {
+        if(preference === "slate"){
+            toggleSwitch.checked = true;
+        }
         document.body.setAttribute('data-md-color-scheme', preference);
     }
 }
 const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
-var preferenceSwitch = localStorage.getItem('themepref');
-if (preferenceSwitch === "slate") {
-    toggleSwitch.checked = true;
-}
 toggleSwitch.addEventListener('change', switchTheme, false);
