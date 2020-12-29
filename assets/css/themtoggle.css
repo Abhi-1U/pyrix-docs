@@ -129,3 +129,6 @@ input:checked + .slider:before {
   overflow-x: unset;
   overflow-inline: inherit;
 }
+.md-announce {
+    background-color:#009485;
+}
